@@ -7,9 +7,9 @@ public class Card {
 	 * @param s suit
 	 * @param r rank
 	 */
-	public Card(Suit s,int r){
+	public Card(Suit s,int value){
 		suit=s;
-		rank=r;
+		rank=value;
 	}	
 	//TODO: 1. Please implement the printCard method (20 points, 10 for suit, 10 for rank)
 	public void printCard(){
